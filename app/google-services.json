@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "921977317979",
+    "project_id": "city-guide-1914c",
+    "storage_bucket": "city-guide-1914c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:921977317979:android:6db1c7b7bedbbe7c3eed7e",
+        "android_client_info": {
+          "package_name": "com.example.cityguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtw8Dme8HvmNJPixvtqUtdIzOLrm-APmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

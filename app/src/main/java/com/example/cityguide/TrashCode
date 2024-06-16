@@ -1,0 +1,82 @@
+// City Guide 3ac93 FireBase
+
+    //    Navigation Drawer Function
+    private void navigationDrawer() {
+
+        //Navigation Drawer
+        navigationView.bringToFront();
+        navigationView.setNavigationItemSelectedListener(this);
+        navigationView.setCheckedItem(R.id.nav_home);
+
+        menuIcon.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (drawerLayout.isDrawerVisible(GravityCompat.START)) {
+                    drawerLayout.closeDrawer(GravityCompat.START);
+                } else {
+                    drawerLayout.openDrawer(GravityCompat.START);
+                }
+            }
+        });
+
+        animateNavigationDrawer();
+
+
+    }
+
+    private void animateNavigationDrawer() {
+
+        //Add any color or remove it to use the default one!
+        //To make it transparent use Color.Transparent in side setScrimColor();
+//        drawerLayout.setScrimColor(Color.TRANSPARENT);
+        drawerLayout.setScrimColor(getResources().getColor(R.color.banner_background_light));
+
+        drawerLayout.addDrawerListener(new DrawerLayout.SimpleDrawerListener() {
+            @Override
+            public void onDrawerSlide(View drawerView, float slideOffset) {
+                // Scale the View based on current slide offset
+                final float diffScaledOffset = slideOffset * (1 - END_SCALE);
+                final float offsetScale = 1 - diffScaledOffset;
+                contentView.setScaleX(offsetScale);
+                contentView.setScaleY(offsetScale);
+                // Translate the View, accounting for the scaled width
+                final float xOffset = drawerView.getWidth() * slideOffset;
+                final float xOffsetDiff = contentView.getWidth() * diffScaledOffset / 2;
+                final float xTranslation = xOffset - xOffsetDiff;
+                contentView.setTranslationX(xTranslation);
+            }
+        });
+
+    }
+
+
+
+
+    // Click in Nav bar Categories
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+
+        int itemId = menuItem.getItemId();
+        if (itemId == R.id.nav_all_categories) {
+            // Handle nav_all_categories
+            startActivity(new Intent(getApplicationContext(), AllCategories.class));
+
+//        } else if (itemId == R.id.other_id) {
+//            // Handle other_id
+//        } else {
+//            // Handle default case
+        }
+
+//        switch (menuItem.getItemId()) {
+//            case R.id.nav_all_categories:
+//                startActivity(new Intent(getApplicationContext(), AllCategories.class));
+//                break;
+//        }
+        drawerLayout.closeDrawer(GravityCompat.START); // Close the drawer after item selection
+        return true;
+    }
+
+
+
+
+

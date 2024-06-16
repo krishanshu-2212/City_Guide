@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CityGuide" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.CityGuide" parent="Base.Theme.CityGuide" />
+
+    <!--    Menu Style-->
+    <style name="navigationTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Other theme attributes -->
+        <item name="navigationViewStyle">@style/NavigationViewStyle</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+        <!-- Customize attributes for the NavigationView -->
+        <item name="android:background">@color/white</item>
+        <!-- Other customization -->
+    </style>
+
+    <style name="RadioButtonTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+    </style>
+
+</resources>

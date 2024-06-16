@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">City Guide</string>
+    <string name="logo_name">Get A Way</string>
+    <string name="slogan_name">We will help you to find your way!</string>
+    <string name="powered_by">Powered By Fury</string>
+
+    <!-- Strings for On Boarding Screen -->
+    <!--Titles-->
+    <string name="first_slide_title">Search Your Location</string>
+    <string name="second_slide_title">Make A Call</string>
+    <string name="third_slide_title">Add Missing Place</string>
+    <string name="fourth_slide_title">Sit Back And Enjoy</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">You can search any place nearby or with-in the specified city. We will display specific or all related shops to match your search. </string>
+    <string name="second_slide_desc">We provide almost all the numbers of all departments and shops registered with us. You can perform bookings as well.</string>
+    <string name="third_slide_desc">If you have a shop or somethings and want to be a part of our growing industry then add your place by following simple steps.</string>
+    <string name="fourth_slide_desc">We will handle everything for you. As you have the app in your pocket then you don\'t have to worry about anything.  </string>
+
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+    <string name="verify_btn">Verify</string>
+
+    <!--    String for dashboard-->
+
+    <!--    Categories-->
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="shops">Shops</string>
+    <string name="banks">Banks</string>
+    <string name="education">Education</string>
+
+    <!--    Titles and Description-->
+    <string name="featured_location">All Featured Locations</string>
+    <string name="featured_location_description">All the location that are featured and have the top demand in town!</string>
+    <string name="most_viewed_location">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View All</string>
+    <string name="search_text">Search</string>
+
+    <!--      Menu Names      -->
+    <string name="home">HOME</string>
+    <string name="search">SEARCH</string>
+    <string name="all_categories">ALL CATEGORIES</string>
+    <string name="add_missing_place">ADD MISSING PLACE</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+
+
+    <!--    All Categories Menu Iten-->
+    <string name="expand_all">Expand All</string>
+    <string name="car_rent">Car Rent</string>
+    <string name="all_shops">All Shops</string>
+
+    <!--TODO: Retailer Panel Strings-->
+
+    <!--    General Strings-->
+    <string name="sign_up">Sign Up</string>
+    <string name="retailer_heading">Grow\nYour Business</string>
+    <string name="retailer_tag_line">We will help you to grow your business using online services!</string>
+    <string name="create_account">Create Account</string>
+    <string name="how_we_work">How we work?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_email">E-mail</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+
+    <!--    OTP Screen-->
+    <string name="otp_code_text">Co\nde</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_description_text">Enter one time password send on\n +91 1234567890</string>
+
+    <!--    Forget Screen-->
+    <string name="make_selection">Make Selection</string>
+    <string name="forget_password_details">Provide your account\'s email for which you want to reset your password!</string>
+    <string name="make_selection_details">Select which contact details should we use to reset your password?</string>
+    <string name="via_sms">via sms:</string>
+    <string name="via_mail">via mail:</string>
+
+    <!--    Set New Password Screen-->
+    <string name="set_new_credentials">New\n Credentials</string>
+    <string name="new_credentials_details">Your identity has been verified!\n Set your new password</string>
+
+    <!--    Success Screen-->
+    <string name="password_updated">Password\n Updated</string>
+    <string name="password_updated_success_message">Your password has been updated!</string>
+
+
+    <!--    Extra Texts-->
+    <!--    <string name="mcdonals">McDonal's</string>-->
+
+</resources>
